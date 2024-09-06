@@ -1,0 +1,97 @@
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+  position: relative;
+  background-color: #6c4e26;
+  max-width: 90vw;
+  margin: 50px;
+  font-family: "Roboto", sans-serif;
+}
+.footer {
+  position: absolute;
+  padding-top: 30px;
+  bottom: 0px;
+  width: 10%;
+ 
+}
+h1{
+position:relative;
+ width:30%;  
+}
+.layout {
+  position: relative;
+  display: flex;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+
+.nav {
+  width: max-content;
+  background-color: #7081d9;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 30px;
+  border-radius: 5px;
+  margin-left:80%;
+
+}
+.content {
+  position:fixed;
+  max-width:50%;
+}
+
+
+.navList {
+  list-style: none;
+}
+
+h4 {
+  font-weight: 1000;
+  font-style: italic;
+}
+
+
+@media only screen and (min-width: 920px) {
+  .layout {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .content {
+    width: 50%;
+  }
+  .nav {
+    margin-right: 0px;
+}
+}
+
+/* tablets */
+@media only screen and (max-width: 919px) {
+  .layout {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .content {
+    width: 50%;
+  }
+  .nav {
+    margin-right: 0px;
+}
+}
+
+/* phones */
+@media only screen and (max-width: 400px) {
+  .layout {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .content {
+    width: 50%;
+  }
+  .nav {
+    margin-right: 0px;
+}
+}
