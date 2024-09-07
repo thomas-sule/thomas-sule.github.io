@@ -1,17 +1,77 @@
-What is the difference between Margin, Border, and Padding?
+<html lang="en">
 
+<head>
+  <title>ThomasSuleblog</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-Margin simply put is the space put between the outside line of the box shown in the image below coloured in green and whatever is surrounding it. It is used to make sure the right amount of space is between the content which could be an image or text and another image for example. Margin is specified with  margin-top:0px which can be used for top,bottom,left and right to dictate the space given shown in image 2
-https://miro.medium.com/v2/resize:fit:1100/format:webp/1*E_YuB8x1B3T3h6PIJ_I9qQ.png
-https://csswolf.com/wp-content/uploads/2022/09/margin-shorthand-with-4-values-declared.svg
+</head>
 
-Border is the outline of the content in the middle which can be customized to suit whatever you’d like whether it be solid, fat, or thin. For example the first image has a few different border styles that can be applied with border-style:(insert style). Borders can also be rounded to give them a better look example in image 2 with the use of border-radius:0px.
+<body class="container">
+  <h1>Welcome to my blog</h1>
 
-https://www.htmldog.com/figures/border-style.png
-https://www.webdesignerdepot.com/cdn-origin/uploads/2018/10/001-4.jpg
+  <div class="layout">
+    <nav class="nav">
+      <h2>Posts</h2>
+      <h3>Technical 🖥️</h3>
+      <ul class="navList">
+        <li>
+          <a href="blog/te-houtaewa-template.html" target=”_blank” >te-houtaewa</a>
+        </li>
+        <li>
+          wip
+        </li>
+        <li>
+          wip
+        </li>
+      </ul>
+      <h3>Human</h3>
+      <ul class="navList">
+        <li>
+          wip
+        </li>
+        <li>
+          wip
+        </li>
+        <li>
+          wip
+        </li>
+      </ul>
+    </nav>
 
-Padding is the whitespace between the content in the middle and the border outline. This allows us to move our content so it's away from our border using padding left:10px same for right, top and bottom example in image 1.
+    <main class="content">
+      <h4>
+        What is the difference between Margin, Border, and Padding?
+      </h4>
+      <p>
+        
 
+Margin simply put is the space put between the outside line of the box shown in the image below coloured in green and whatever is surrounding it. It is used to make sure the right amount of space is between the content which could be an image or text and another image for example. Margin is specified with  margin-top:0px which can be used for top,bottom,left and right to dictate the space given shown in image 2<br><br>
+<img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*E_YuB8x1B3T3h6PIJ_I9qQ.png" alt="margin image" style="width:55%;height:55%";>
+<img src="https://csswolf.com/wp-content/uploads/2022/09/margin-shorthand-with-4-values-declared.svg" alt="margin image" style="width:55%;height:55%";>
 
+      </p>
+      <p>
+        Border is the outline of the content in the middle which can be customized to suit whatever you’d like whether it be solid, fat, or thin. For example the first image has a few different border styles that can be applied with border-style:(insert style). Borders can also be rounded to give them a better look example in image 2 with the use of border-radius:0px.<br>
+        <img src="https://www.htmldog.com/figures/border-style.png" alt="border image" style="width:20%;height:30%";>
+       <img src="https://www.webdesignerdepot.com/cdn-origin/uploads/2018/10/001-4.jpg" alt="border image" style="width:25%;height:25%";>
+      </p>
+      <p>
+        Padding is the whitespace between the content in the middle and the border outline. This allows us to move our content so it's away from our border using padding left:10px same for right, top and bottom example in image 1.<br>
+        <img src="https://www.programiz.com/sites/tutorial2program/files/css-padding-shorthand-example.png" alt="padding image" style="width:20%;height:20%">
+      </p>
+    </main>
 
-https://www.programiz.com/sites/tutorial2program/files/css-padding-shorthand-example.png
+  </div>
+
+  <footer class="footer">
+    <p>Thomas Sule 2024 blog</p>
+  </footer>
+
+</body>
+
+</html>
