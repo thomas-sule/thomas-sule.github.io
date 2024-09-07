@@ -10,10 +10,8 @@
   font-family: "Roboto", sans-serif;}
 .footer {
   position: fixed;
-  padding-top: 50%;
   bottom: 5px;
   width: 10%;
-  margin-top: auto;
   margin-left: 80vw;
 }
 h1{
@@ -31,6 +29,7 @@ position:flex;
   padding-right: 15px;
   border-radius: 5px;
   float: inline-end;
+  position: sticky;
 }
 .content {
   position:flex;
@@ -53,8 +52,8 @@ h4 {
   .content {
     width: 70%;
   }
-  .nav {
-    margin-right: 0px;
+  .nav{
+    position:sticky;
 }
 }
 
