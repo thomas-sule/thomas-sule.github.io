@@ -30,6 +30,7 @@ position:flex;
   border-radius: 5px;
   float: inline-end;
   position: sticky;
+  top: 0;
 }
 .content {
   position:flex;
@@ -54,6 +55,7 @@ h4 {
   }
   .nav{
     position:sticky;
+    bottom: 0;
 }
 }
 
